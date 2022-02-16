@@ -1,0 +1,452 @@
+.btn-verano1{
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+}
+.colum1{
+    height: auto;
+}
+.colum2{
+    background: rgba(255, 255, 255, 0.8);
+    height: auto;
+    margin-top: 120px;
+    padding: 20px;
+    border-radius: .8rem;
+}
+.colum3{
+    height: auto;
+}
+.fondo{
+    background-image: url("img/background.png");
+    height: 100%;
+    background-size: cover;
+    background-position: fixed;
+    min-height: 100vh;
+}
+body{
+    position: relative;
+    margin: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+    display: grid;
+    font-family: 'Handlee', cursive;
+
+}
+
+.titulo{
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    background: rgba(29, 161, 51, 0.8);
+    text-align: center;
+    align-items: center;  /*para alignitems, justifycontent,display hay que poner flexbox en clase html*/
+    justify-content: center;
+    display:flex;
+    border-radius: .8rem;
+}
+
+h1{
+    text-align: center;
+}
+
+.h5{
+    margin-top: 20px;
+    margin-bottom: 15px; 
+    text-align: center;
+}
+.color-boton-index{
+    background-color: yellowgreen;
+    color: #333333;
+}
+.color-boton-index:hover{
+    background-color: #00b36b;
+}
+
+.color-boton{
+    background-color: #00e68a;
+    color: #333333;
+}
+.color-boton:hover{
+    background-color: #00b36b;
+}
+
+.filtro{
+  height: auto;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  background: rgba(29, 161, 51, 0.8);
+  align-items: center;  /*para alignitems, justifycontent,display hay que poner flexbox en clase html*/
+  justify-content: center;
+  display:flex;
+  border-radius: .8rem;
+}
+.boton-cultivo{
+    margin-bottom: 10px;
+}
+.btn-otoño{
+    height: 150px;
+    width: 0px;
+    background: url("img/otoño.png") no-repeat center;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border: 0px;
+}
+
+
+.btn-invierno{
+    height: 150px;
+    width: 0px;
+    background: url("img/invierno.png") no-repeat center;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border: 0px;
+    
+}
+
+.btn-group-vertical>.btn, .btn-group>.btn {
+    border-radius: 50%!important;
+}
+.btn-primavera:hover,.btn-verano:hover,.btn-invierno:hover,.btn-otoño:hover {
+    color: #fff;
+    background-color: #0dfd49;
+    border-radius: 50%!important;
+}
+
+.circulo:active, .circulo:checked, .circulo.active, .circulo.dropdown-toggle.show, .circulo:active{
+    color: #fff;
+    background-color: #0d6efd;
+    border-radius: 50%!important;
+}
+
+.btn-primavera{
+    height: 150px;
+    width: 0px;
+    background: url("img/primavera.png") no-repeat center;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border: 0px;
+}
+
+.btn-verano{
+    height: 150px;
+    width: 0px;
+    background: url("img/verano.png") no-repeat center;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border: 0px;
+}
+.larala{
+    max-width: 800px;
+}
+.resultados{
+    height: auto;
+    max-height: auto;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    background: rgba(29, 161, 51, 0.8);
+    border-radius: .8rem;
+}
+.seleccionados{
+    list-style: none;
+    display:flex;
+    margin-right: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 60px;
+    width: 60px;
+
+}
+.texto-card-body {
+    overflow-y: scroll;
+    height: 247px!important;
+}
+
+.foto-detalle{
+    width: 100%;
+    height: auto;
+    background-size: auto;
+}
+.texto-detalle{
+    font-size: 18px;
+}
+.detalle-cultivo{
+    height: auto;
+    max-height: auto;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    background: rgba(29, 161, 51, 0.8);
+    border-radius: .8rem;
+
+}
+.titulo-detalle{
+    display:flex;
+}
+.detalle-cultivo-internal{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 25px;
+}
+h3{
+    font-size: 25px;
+}
+.lista-detalle{
+    list-style: none;
+    margin-bottom: 45px;
+    text-align: center;
+    font-size: 18px;
+}
+.color{
+    font-weight: bold;
+    color: whitesmoke;
+}
+.letra-detalle{
+    font-size: 20px;
+    font-weight: bold;
+}
+.crearCuenta{
+    background:rgb(193, 203, 156);
+    z-index: 9999;
+    box-shadow: 9px 10px 5px rgb(0 0 0 / 20%);
+    border-radius: .8rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    max-width: 260px;
+    padding: 10px;
+    margin: auto;
+}
+.parrafo-cuenta{
+    color: rgba(11, 82, 89, 0.94);
+}
+.boton-crear-cuenta{
+    height: 90px;
+    width: 90px;
+    background-color: blueviolet;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+
+/*-------------------LOGIN------------------*/
+
+.contra{
+    text-align: right;
+}
+
+.cuenta{
+    text-align:  center;
+
+}
+
+.crear-cuenta-sesion{
+    height: 160px;
+    width: 190px;
+    background: url("img/login-back2.png");
+    right: 3%;
+    position: fixed;
+    z-index: 11000;
+    display:flex;
+}
+
+
+.crear-cuenta-sesion2 {
+    height: 160px;
+    width: 230px;
+    background: url(img/logo-calendario-01.png);
+    left: 2%;
+    position: absolute;
+    background-position: center;
+    z-index: 11000;
+    display: flex;
+    background-size: cover;
+}
+
+.login-buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    width: 160px;
+    margin-left: 20px;
+    justify-content: space-evenly;
+}
+.login-buttons a{
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.detalle-atributo {
+    margin:0;
+    padding: 0;
+}
+
+.button1{
+    background-color: #6963a7; /* Green */
+    border: none;
+    color:rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+nav{
+    background:#ffffff;
+}
+.you{
+    margin-right:100px ;
+}
+.mb-4{
+    width: 230px;
+    display: grid;
+
+}
+
+/*------------REGISTER----------*/
+.mb-2{
+    width: 400px;
+}
+
+.botonCrearCuenta{
+    margin: auto;
+    min-width: 150px;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+/*-------------------------------------MI CALENDARIO---------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/
+.filtro-myaccount{
+    margin-right: 40px;
+    width: 100%;
+    background-color: rgb(193, 203, 156);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.prov-tam{
+    align-items: center;
+    justify-content: center;
+}
+.boton{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.lista-usuario{
+    list-style:none;
+    padding-left: .5rem;
+}
+
+.buttons-card-parcela{
+    display: flex;
+    flex-direction: row;
+}
+.botones-eliminar-modificar-parcela{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.titulo-parcelas{
+    text-align: center;
+}
+.boton-parcela{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#animation{
+    animation-name: caida;
+    animation-duration: 1.1s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes caida {
+    0%{top: -150px;}
+    50%{top: 0px;}
+    85%{top: -10px;}
+    100%{top: 0px;}
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+/*-------------------------------------ADMINISTRADOR---------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/
+.adm{
+    margin-top: 200px; 
+}
+.fondo-admin{
+    background: rgb(103,255,143);
+    background: linear-gradient(180deg, rgba(103,255,143,1) 10%, rgba(22,84,24,1) 100%);
+}
+.cargar-planta{
+    width: 100%;
+    height: 160px;
+    background-image: url('img/cargarlibro.jpg');
+    background-position: center;
+    background-size: cover;
+    font-size: 50px;
+    color: antiquewhite;
+    text-align: center;
+    padding-top:30px;
+}
+
+.back-admin {
+    background: #ffffff60;
+    border-radius: 1rem;
+    min-height: 80vh;
+}
+
+.boton-adm{
+    right: 1.5vw;
+    position: fixed;
+    z-index: 11000;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    height: 60px;
+}
+
+.text-wrap-table{
+    text-align: center;
+}
+
+.cerrar-sesion{
+    max-width: 80px;
+    font-size: 20px;
+}
